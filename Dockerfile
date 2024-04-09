@@ -1,7 +1,7 @@
 FROM alpine:3
 MAINTAINER Francois Billant <fbillant@gmail.com>
 
-ENV MOLECULE_VERSION=6.0.3
+ENV MOLECULE_VERSION=24.2.0
 
 RUN apk add --no-cache python3 py3-pip docker-cli rsync
 
