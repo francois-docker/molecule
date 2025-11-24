@@ -1,7 +1,7 @@
 FROM alpine:3
 LABEL org.opencontainers.image.authors="Francois Billant <fbillant@gmail.com>"
 
-ENV MOLECULE_VERSION=25.11.0
+ENV MOLECULE_VERSION=25.11.1
 
 RUN apk add --no-cache python3 py3-pip docker-cli rsync
 
